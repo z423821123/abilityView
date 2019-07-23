@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <declare-styleable name="AbilityView">
+        <!-- 多边形大小 -->
+        <attr name="radarLineLength" format="dimension"/>
+        <!-- 内圈线条宽度 -->
+        <attr name="radarInLineWidth" format="dimension"/>
+        <!-- 内圈线条颜色 -->
+        <attr name="radarInLineColor" format="color"/>
+        <!-- 能力圈线条宽度 -->
+        <attr name="radarAbilityLineWidth" format="dimension"/>
+        <!-- 能力圈线条颜色 -->
+        <attr name="radarAbilityLineColor" format="color"/>
+        <!-- 外圈线条宽度 -->
+        <attr name="radarOutLineWidth" format="dimension"/>
+        <!-- 外圈线条颜色 -->
+        <attr name="radarOutLineColor" format="color"/>
+        <!-- 文字字体大小-->
+        <attr name="radarTextSize" format="dimension"/>
+        <!-- 文字颜色 -->
+        <attr name="radarTextColor" format="color"/>
+        <!-- 数字大小-->
+        <attr name="radarNumberSize" format="dimension"/>
+        <!-- 数字颜色 -->
+        <attr name="radarNumberColor" format="color"/>
+    </declare-styleable>
+</resources>
